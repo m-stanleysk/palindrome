@@ -1,0 +1,20 @@
+declare variables: get form, button, and result div by id
+
+RECEIVE INPUT
+-User enters text in form (check button or enter key) - event listeners
+-Send the input into a function to process and check
+--if no input, alert "Please input a value" and stop function
+--otherwise process the input
+
+PROCESS
+-strip out spaces and punctuation, leaving letters and numbers
+-make input all lower case
+
+CHECK
+-check if processed.input and reversed processed.input are strictly equal
+
+CONSTRUCT OUTPUT
+--if strictly equal, it is a palindrome
+---Output in results div: ORIGINAL INPUT is a palindrome (replace previous text).
+--if not strictly equal, it is not a palindrome
+---Output in results div: ORIGINAL INPUT is not a palindrome (replace previous text).
