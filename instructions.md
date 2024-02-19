@@ -11,7 +11,7 @@ User Stories:
     DONE -You should have an input element with an id of text-input
     DONE -You should have a button element with an id of check-btn
     DONE -You should have a div element with an id of result
-    When you click on the #check-btn element without entering a value into the #text-input element, an alert should appear with the text Please input a value
+    DONE -When you click on the #check-btn element without entering a value into the #text-input element, an alert should appear with the text Please input a value
     When the #text-input element only contains the letter A and the #check-btn element is clicked, the #result element should contain the text A is a palindrome
     When the #text-input element contains the text eye and the #check-btn element is clicked, the #result element should contain the text eye is a palindrome
     When the #text-input element contains the text _eye and the #check-btn element is clicked, the #result element should contain the text _eye is a palindrome
